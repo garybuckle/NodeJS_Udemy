@@ -35,15 +35,4 @@ if (url === '/') {
   res.write('</html>');
   res.end();
   
-  // Changing the git remote is typically done outside of the Node.js application code.
-  // It's a Git operation that should be performed in the terminal or command prompt.
-  // Here's a comment explaining the process:
-
-  // To change the git remote, use the following command in your terminal:
-  // git remote set-url origin https://github.com/username/new-repository.git
-
-  // Replace 'https://github.com/username/new-repository.git' with your new remote URL.
-  // After changing the remote, you can verify it with:
-  // git remote -v
-
-  // Note: This comment is for informational purposes only and does not affect the application's functionality.
+  
